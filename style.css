@@ -770,8 +770,11 @@ url("assets/banner-2.png");
   align-items: center;
   justify-content: center;
   background-color: var(--white);
-  border-radius: 2px;
-  
+  border-radius: 2px;  
+}
+
+.footer__col form:hover {
+  box-shadow: 5px 5px rgba(244, 4, 28, 0.5);
 }
 
 .footer__col input {
